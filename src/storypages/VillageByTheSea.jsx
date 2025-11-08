@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import VillageByTheSeaSummary from '../components/summary/VillageByTheSeaSummary';
-import NavBar from "../components/nav/NavBar";
-import useLoading from "../hooks/UseLoading";
-import LoadingScreen from "../components/loadingscreen/LoadingScreen";
+import VillageByTheSeaSummary from '../shared/components/summary/VillageByTheSeaSummary';
+import NavBar from "../shared/components/nav/NavBar";
+import useLoading from "../shared/hooks/UseLoading";
+import LoadingScreen from "../shared/hooks/UseLoading";
 
 function VillageByTheSea() {
     useEffect(() => {

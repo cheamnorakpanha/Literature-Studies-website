@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import HitchHikerSummary from '../components/summary/HitchHikerSummary';
-import NavBar from "../components/nav/NavBar";
-import useLoading from "../hooks/UseLoading";
-import LoadingScreen from "../components/loadingscreen/LoadingScreen";
+import HitchHikerSummary from '../shared/components/summary/HitchHikerSummary';
+import NavBar from "../shared/components/nav/NavBar";
+import useLoading from "../shared/hooks/UseLoading";
+import LoadingScreen from "../shared/components/loadingscreen/LoadingScreen";
 
 function HitchHiker() {
     useEffect(() => {

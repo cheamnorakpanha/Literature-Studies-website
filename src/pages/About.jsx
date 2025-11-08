@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
-import AboutHeader from "../components/about/AboutHeader";
-import AboutBody from "../components/about/AboutBody";
-import Navbar from "../components/nav/NavBar";
-import useLoading from "../hooks/UseLoading";
-import LoadingScreen from "../components/loadingscreen/LoadingScreen";
+import AboutHeader from "../shared/components/about/AboutHeader";
+import AboutBody from "../shared/components/about/AboutBody";
+import Navbar from "../shared/components/nav/NavBar";
+import useLoading from "../shared/hooks/UseLoading";
+import LoadingScreen from "../shared/components/loadingscreen/LoadingScreen";
 
 const About = () => {
     useEffect(() => {

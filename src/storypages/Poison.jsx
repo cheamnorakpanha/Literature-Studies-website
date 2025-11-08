@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import PoisonSummary from '../components/summary/PoisonSummary';
-import NavBar from "../components/nav/NavBar";
-import LoadingScreen from "../components/loadingscreen/LoadingScreen";
-import useLoading from "../hooks/UseLoading";
+import PoisonSummary from '../shared/components/summary/PoisonSummary';
+import NavBar from "../shared/components/nav/NavBar";
+import LoadingScreen from "../shared/components/loadingscreen/LoadingScreen";
+import useLoading from "../shared/hooks/UseLoading";
 
 function Poison() {
     useEffect(() => {

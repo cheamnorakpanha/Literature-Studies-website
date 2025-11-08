@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import NotPoorJustBrokeSummary from '../components/summary/NotPoorJustBrokeSummary';
-import NavBar from "../components/nav/NavBar";
-import useLoading from "../hooks/UseLoading";
-import LoadingScreen from "../components/loadingscreen/LoadingScreen";
+import NotPoorJustBrokeSummary from '../shared/components/summary/NotPoorJustBrokeSummary';
+import NavBar from "../shared/components/nav/NavBar";
+import useLoading from "../shared/hooks/UseLoading";
+import LoadingScreen from "../shared/components/loadingscreen/LoadingScreen";
 
 function NotPoorJust() {
     useEffect(() => {

@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import OliverTwistSummary from '../components/summary/OliverTwistSummary';
-import NavBar from "../components/nav/NavBar";
-import useLoading from "../hooks/UseLoading";
-import LoadingScreen from "../components/loadingscreen/LoadingScreen";
+import OliverTwistSummary from '../shared/components/summary/OliverTwistSummary';
+import NavBar from "../shared/components/nav/NavBar";
+import useLoading from "../shared/hooks/UseLoading";
+import LoadingScreen from "../shared/components/loadingscreen/LoadingScreen";
 
 function OliverTwist() {
     useEffect(() => {
