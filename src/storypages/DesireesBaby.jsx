@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import DesireesBabySummary from '../components/summary/DesireesBabySummary';
-import Navbar from "../components/nav/NavBar";
-import UseLoading from "../hooks/UseLoading";
-import LoadingScreen from "../components/loadingscreen/LoadingScreen";
+import DesireesBabySummary from '../shared/components/summary/DesireesBabySummary';
+import Navbar from "../shared/components/nav/NavBar";
+import UseLoading from "../shared/hooks/UseLoading";
+import LoadingScreen from "../shared/components/loadingscreen/LoadingScreen";
 
 function DesireesBaby() {
     useEffect(() => {

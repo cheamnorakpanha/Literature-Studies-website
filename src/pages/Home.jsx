@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import HomeBody from "../components/home/HomeBody";
-import Navbar from "../components/nav/NavBar";
-import UseLoading from "../hooks/UseLoading";
-import LoadingScreen from "../components/loadingscreen/LoadingScreen";
+import HomeBody from "../shared/components/home/HomeBody";
+import Navbar from "../shared/components/nav/NavBar";
+import UseLoading from "../shared/hooks/UseLoading";
+import LoadingScreen from "../shared/components/loadingscreen/LoadingScreen";
 
 const Home = () => {
     useEffect(() => {

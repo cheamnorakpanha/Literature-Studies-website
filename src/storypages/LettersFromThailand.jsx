@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import LettersFromThailandSummary from '../components/summary/LettersFromThailandSummary';
-import Navbar from "../components/nav/NavBar";
-import useLoading from "../hooks/UseLoading";
-import LoadingScreen from "../components/loadingscreen/LoadingScreen";
+import LettersFromThailandSummary from '../shared/components/summary/LettersFromThailandSummary';
+import Navbar from "../shared/components/nav/NavBar";
+import useLoading from "../shared/hooks/UseLoading";
+import LoadingScreen from "../shared/components/loadingscreen/LoadingScreen";
 
 function LettersFromThailand() {
     useEffect(() => {

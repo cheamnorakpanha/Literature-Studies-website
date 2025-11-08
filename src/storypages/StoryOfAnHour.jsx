@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import StoryOfAnHourSummary from '../components/summary/StoryOfAnHourSummary';
-import NavBar from "../components/nav/NavBar";
-import LoadingScreen from "../components/loadingscreen/LoadingScreen";
-import useLoading from "../hooks/UseLoading";
+import StoryOfAnHourSummary from '../shared/components/summary/StoryOfAnHourSummary';
+import NavBar from "../shared/components/nav/NavBar";
+import LoadingScreen from "../shared/components/loadingscreen/LoadingScreen";
+import useLoading from "../shared/hooks/UseLoading";
 
 function StoryOfAnHour() {
     useEffect(() => {

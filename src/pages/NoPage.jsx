@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 import { ReactTyped } from "react-typed";
 import { Link } from "react-router-dom";
-import Navbar from "../components/nav/NavBar";
-import useLoading from "../hooks/UseLoading";
-import LoadingScreen from "../components/loadingscreen/LoadingScreen";
+import Navbar from "../shared/components/nav/NavBar";
+import useLoading from "../shared/hooks/UseLoading";
+import LoadingScreen from "../shared/components/loadingscreen/LoadingScreen";
 
 export default function NoPage() {
     useEffect(() => {

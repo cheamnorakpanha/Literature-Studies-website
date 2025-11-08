@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import DroversWifeSummary from '../components/summary/DroversWifeSummary';
-import Navbar from "../components/nav/NavBar";
-import useLoading from "../hooks/UseLoading";
-import LoadingScreen from "../components/loadingscreen/LoadingScreen";
+import DroversWifeSummary from '../shared/components/summary/DroversWifeSummary';
+import Navbar from "../shared/components/nav/NavBar";
+import useLoading from "../shared/hooks/UseLoading";
+import LoadingScreen from "../shared/components/loadingscreen/LoadingScreen";
 
 function DroversWife() {
     useEffect(() => {

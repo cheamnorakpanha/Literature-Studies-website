@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import RomeoAndJulietSummary from '../components/summary/RomeoAndJulietSummary';
-import NavBar from "../components/nav/NavBar";
-import UseLoading from "../hooks/UseLoading";
-import LoadingScreen from "../components/loadingscreen/LoadingScreen";
+import RomeoAndJulietSummary from '../shared/components/summary/RomeoAndJulietSummary';
+import NavBar from "../shared/components/nav/NavBar";
+import UseLoading from "../shared/hooks/UseLoading";
+import LoadingScreen from "../shared/components/loadingscreen/LoadingScreen";
 
 function RomeoAndJuliet() {
     useEffect(() => {

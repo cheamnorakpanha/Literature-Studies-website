@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from 'react-router-dom';
-import Records from '../../json/records.json';
+import Records from '../../../json/records.json';
 import { motion } from "framer-motion"
 import UseAnimations from "../../hooks/UseAnimations";
 

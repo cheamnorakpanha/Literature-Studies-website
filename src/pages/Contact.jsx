@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
-import ContactForm from "../components/contact/ContactForm";
-import Gallery from "../components/contact/Gallery";
-import Navbar from "../components/nav/NavBar";
-import '../styles/styles.css';
-import useLoading from "../hooks/UseLoading";
-import LoadingScreen from "../components/loadingscreen/LoadingScreen";
+import ContactForm from "../shared/components/contact/ContactForm";
+import Gallery from "../shared/components/contact/Gallery";
+import Navbar from "../shared/components/nav/NavBar";
+import '../shared/styles/styles.css';
+import useLoading from "../shared/hooks/UseLoading";
+import LoadingScreen from "../shared/components/loadingscreen/LoadingScreen";
 
 const Contact = () => {
     useEffect(() => {

@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import NecklaceSummary from '../components/summary/NecklaceSummary';
-import Navbar from "../components/nav/NavBar";
-import useLoading from "../hooks/UseLoading";
-import LoadingScreen from "../components/loadingscreen/LoadingScreen";
+import NecklaceSummary from '../shared/components/summary/NecklaceSummary';
+import Navbar from "../shared/components/nav/NavBar";
+import useLoading from "../shared/hooks/UseLoading";
+import LoadingScreen from "../shared/components/loadingscreen/LoadingScreen";
 
 function Necklace() {
     useEffect(() => {
